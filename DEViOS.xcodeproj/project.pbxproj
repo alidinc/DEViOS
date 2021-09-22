@@ -14,6 +14,8 @@
 		DA0A81E226F8F2EB00BF7684 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA0A81E126F8F2EB00BF7684 /* Assets.xcassets */; };
 		DA0A81E526F8F2EB00BF7684 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA0A81E326F8F2EB00BF7684 /* LaunchScreen.storyboard */; };
 		DA0A81F426F9016700BF7684 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA0A81F326F9016700BF7684 /* GoogleService-Info.plist */; };
+		DA0A81F826F9143700BF7684 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0A81F626F9143700BF7684 /* FeedCell.swift */; };
+		DA0A81F926F9143700BF7684 /* FeedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA0A81F726F9143700BF7684 /* FeedCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		DA0A81E426F8F2EB00BF7684 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA0A81E626F8F2EB00BF7684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA0A81F326F9016700BF7684 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DA0A81F626F9143700BF7684 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		DA0A81F726F9143700BF7684 /* FeedCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +52,6 @@
 				1555E3C9A06F7418A1805104 /* Pods-DEViOS.debug.xcconfig */,
 				AFE5579A3884D47A85D835C1 /* Pods-DEViOS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -74,9 +77,9 @@
 			isa = PBXGroup;
 			children = (
 				DA0A81EF26F8F36400BF7684 /* Models */,
+				DA0A81ED26F8F33600BF7684 /* Views */,
 				DA0A81F026F8F37200BF7684 /* Controllers */,
 				DA0A81EC26F8F30500BF7684 /* Resources */,
-				DA0A81ED26F8F33600BF7684 /* Views */,
 			);
 			path = DEViOS;
 			sourceTree = "<group>";
@@ -96,6 +99,7 @@
 		DA0A81ED26F8F33600BF7684 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				DA0A81F526F9141E00BF7684 /* CustomViews */,
 				DA0A81EE26F8F34500BF7684 /* Storyboards */,
 			);
 			path = Views;
@@ -138,6 +142,15 @@
 			children = (
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DA0A81F526F9141E00BF7684 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				DA0A81F626F9143700BF7684 /* FeedCell.swift */,
+				DA0A81F726F9143700BF7684 /* FeedCell.xib */,
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 		FAA218F908AEEC47C72F296E /* Frameworks */ = {
@@ -212,6 +225,7 @@
 				DA0A81F426F9016700BF7684 /* GoogleService-Info.plist in Resources */,
 				DA0A81E226F8F2EB00BF7684 /* Assets.xcassets in Resources */,
 				DA0A81E026F8F2EA00BF7684 /* Main.storyboard in Resources */,
+				DA0A81F926F9143700BF7684 /* FeedCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +280,7 @@
 			files = (
 				DA0A81D926F8F2EA00BF7684 /* AppDelegate.swift in Sources */,
 				DA0A81DB26F8F2EA00BF7684 /* SceneDelegate.swift in Sources */,
+				DA0A81F826F9143700BF7684 /* FeedCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,7 +432,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GD7GT762TS;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DEViOS/Info.plist;
+				INFOPLIST_FILE = DEViOS/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -446,7 +461,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GD7GT762TS;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DEViOS/Info.plist;
+				INFOPLIST_FILE = DEViOS/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
