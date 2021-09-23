@@ -48,7 +48,6 @@
 				1555E3C9A06F7418A1805104 /* Pods-DEViOS.debug.xcconfig */,
 				AFE5579A3884D47A85D835C1 /* Pods-DEViOS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -415,9 +414,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = GD7GT762TS;
+				DEVELOPMENT_TEAM = 3XGZGZGB55;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DEViOS/Info.plist;
+				INFOPLIST_FILE = DEViOS/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -444,9 +443,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = GD7GT762TS;
+				DEVELOPMENT_TEAM = 3XGZGZGB55;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DEViOS/Info.plist;
+				INFOPLIST_FILE = DEViOS/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
